@@ -8,6 +8,8 @@ class UTextBlock;
 
 /**
  * This class is an example of loading dynamically texts from String Tables created in C++.
+ * 
+ * This is a base class for widget WBP_CppStringTable_DynamicLoad_MainGame.
  */
 UCLASS()
 class LOCALIZATIONTUTORIAL_API UCppStringTableLinkExampleWidget : public UUserWidget

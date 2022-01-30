@@ -9,6 +9,8 @@ class UTextBlock;
 /**
  * This class is an example of how to create localized texts in C++ by using the LOCTEXT family of macros.
  * Online duccumentation: https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/Localization/Formatting/
+ * 
+ * This is a base class for widget WBP_CppLocMacro_MainGame.
  */
 UCLASS()
 class LOCALIZATIONTUTORIAL_API ULocMacroExampleWidget : public UUserWidget
