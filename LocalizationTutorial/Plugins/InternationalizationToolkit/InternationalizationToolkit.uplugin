@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "InternationalizationToolkit",
+	"Description": "A set for simple tools used for debug issues related to internationalization topic in Unreal Engine.",
+	"Category": "Other",
+	"CreatedBy": "K8 Sosnowska",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "InternationalizationToolkit",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
