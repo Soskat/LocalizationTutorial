@@ -15,4 +15,4 @@ In case of any questions you can contact me at sosnowska.kk@gmail.com.
 This project is licensed under the MIT License. [Learn more](https://choosealicense.com/licenses/mit/)
 
 ## What's next?
-If you want to learn more about this project and Unreal Localization system, [visit the wiki page available here](https://gitlab.com/m7937/localizationtutorial/-/wikis/Localization-Tutorial-Wiki)
+If you want to learn more about this project and Unreal Localization system, [visit the wiki page available here](LT_Wiki/home.md)
