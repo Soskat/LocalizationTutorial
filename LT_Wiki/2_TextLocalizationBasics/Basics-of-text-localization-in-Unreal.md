@@ -28,3 +28,8 @@ I won't be going deeper in details here, but here are the links that covers this
 - [Text formatting overview in Unreal docummentation](https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/Localization/Formatting/)
 - [BenUI post about setting up localization in Unreal](https://benui.ca/unreal/ui-localization/#dont-break-localization)
 - [Unicode standard for Language Plural Rules](https://www.unicode.org/cldr/cldr-aux/charts/29/supplemental/language_plural_rules.html)
+
+---
+Prev: [Introduction to the localization topic](1_Introduction/Introduction-to-the-localization.md)
+
+Next: [Setting up localizable texts in Unreal](3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md)

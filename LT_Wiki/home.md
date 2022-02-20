@@ -12,16 +12,20 @@ Before you go further here are some valuable resources to chek up:
 
 ## Table of Contents:
 - [Introduction to the localization topic](1_Introduction/Introduction-to-the-localization.md)
-   - Why we need to localize texts and assets
-   - Pros and cons of Unreal Localizaion system
+   - Why we need to localize texts and assets?
+   - Pros and cons of Unreal Localizaion system.
 - [Basics of text localization in Unreal](2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)
-   - Unreal tools for text localization
-   - How to prepare text for localization
+   - Unreal tools for text localization.
+   - How to prepare texts for localization.
 - [Setting up localizable texts in Unreal](3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md)
-   - examples, examples, examples
-- [Working with the Localization Dashboard](4_LocalizationDashboard/Working-with-the-Localization-Dashboard.md)
-   - What is this
-   - Setting up Localization targets
-   - Preparing and loading translations
+   - Examples of creating localizable texts.
+- [Localization Dashboard overview](4_LocalizationDashboard/Localization-Dashboard-Overview.md)
+   - Detailed description of the Localization Dashboard.
+- [Setting up texts localization for your project](4_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md)
+   - A quick guide for setting up localization in your project.
 - [Localizing non-text assets in Unreal](5_LocalizingNonTextAssets/Localizing-non-text-assets-in-Unreal.md)
+   - Unreal pipeline for localizing binary assets.
+- [Localizing Dialogues](../6_LocalizingDialogues/Localizing-Dialogues-in-Unreal.md)
+   - Unreal pipeline for localizing dialogues audio files and subtitles.
 - [Debugging localization errors in Unreal](6_DebuggingLocalizationErrors/Debugging-localization-errors-in-Unreal.md)
+   - A bunch of advices for debugging localization related bugs.

@@ -131,3 +131,8 @@ this->DynamicText->SetText(LOCTABLE("ST_Animals", "st_cpp_animals_cat"));
 
 #### Referencing a String Table in INI files
 In INI files you can only use `LOCTABLE` macro.
+
+---
+Prev: [Basics of text localization in Unreal](2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)
+
+Next: [Localization Dashboard overview](4_LocalizationDashboard/Localization-Dashboard-Overview.md)

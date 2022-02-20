@@ -17,4 +17,8 @@ You may wonder, whether you should use Unreal's localization system or go with s
 ### Cons:
 - localization data needs to be recompiled with every change of text translations...
 - ...that means you can't change translations on the fly -> no support for fan translations
+- compiled localization data is binary data, so it can't be merged. That make it hard to work on certain localization data paralelly with other people 
 - if your localization company doesn't want to work with .PO files, then you need to prepare your own solution for loading text translations to your game
+
+---
+Next: [Basics of text localization in Unreal](2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)

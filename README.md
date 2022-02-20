@@ -16,3 +16,12 @@ This project is licensed under the MIT License. [Learn more](https://choosealice
 
 ## What's next?
 If you want to learn more about this project and Unreal Localization system, [visit the wiki page available here](LT_Wiki/home.md)
+
+## Roadmap
+Things, that will be done in the nearest future:
+- [ ] adding examples for localizing binary Assets
+- [ ] adding examples for localizing Fonts
+- [ ] finishing wiki page *Localizing non-text Assets in Unreal*
+- [ ] adding examples for localizing Dialogues
+- [ ] finishing wiki page *Localizing Dialogues in Unreal*
+- [ ] finishing wiki page *Debugging localization errors in Unreal*
