@@ -24,4 +24,4 @@ Things, that will be done in the nearest future:
 - [ ] finishing wiki page *Localizing non-text Assets in Unreal*
 - [ ] adding examples for localizing Dialogues
 - [ ] finishing wiki page *Localizing Dialogues in Unreal*
-- [ ] finishing wiki page *Debugging localization errors in Unreal*
+- [x] finishing wiki page *Debugging localization errors in Unreal*
