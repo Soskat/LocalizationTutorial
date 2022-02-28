@@ -33,6 +33,79 @@ Loading policy determines when that specific localization target should be used.
 ## Gather texts
 This section contains various settings for the text gatherer program. This program searches all specified locations with text files and packages in order to collect all localizable texts. All collected texts, along with some localization related data, are then stored inside a `[localization_target_name].manifest` file, that you can find inside *Content/Localization/[localization_target_name]* folder. The `*.manifest` file is a json file with some custom formatting, that can be read by Unreal class `FTextLocalizationResourceGenerator`.
 
+<p>
+<details>
+<summary>Click here to see an example *.manifest file (SomeDLC.manifest).</summary>
+<pre><code>
+{
+	"FormatVersion": 1,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "Cpp_Namespace_3",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "This is the third text literal created in code."
+					},
+					"Keys": [
+						{
+							"Key": "Cpp_TextLiteral_3",
+							"Path": "Source/LocalizationTutorial/SomeDLC/LocMacroSomeDLCExampleWidget.cpp:12"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Namespace": "ST_Shapes",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "circle"
+					},
+					"Keys": [
+						{
+							"Key": "st_cpp_shapes_circle",
+							"Path": "Localization/StringTablesCSV/ST_Shapes.csv",
+							"MetaData":
+							{
+								"Info":
+								{
+									"Comments": "This is a circle."
+								}
+							}
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "rectangle"
+					},
+					"Keys": [
+						{
+							"Key": "st_cpp_shapes_rectangle",
+							"Path": "Localization/StringTablesCSV/ST_Shapes.csv",
+							"MetaData":
+							{
+								"Info":
+								{
+									"Comments": "This is a rectangle."
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
+</code></pre>
+</details></p>
+
 ### Gather from Text Files
 
 ![alt text](localization_dashboard_gather_from_text.png "Gather from Text Files settings.")
@@ -82,6 +155,63 @@ When you're happy with your choices of Cultures, it's time to prepare text for t
 ![alt text](localization_dashboard_localizing_texts.png "Steps to perform while localizing texts.")
 
 1. Firstly, you need to gather all localizable texts from your project. In order to do that, click `Gather text` option button **(1)**. This will list all localizable texts and create a bunch of custom JSON files: a described earlier `[localization_target_name].manifest` file + one `[localization_target_name].archive` file with text translations per each Culture.
+
+<p>
+<details>
+<summary>Click here to see an example *.archive file (SomeDLC.archive for German).</summary>
+<pre><code>
+{
+	"FormatVersion": 2,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "Cpp_Namespace_3",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "This is the third text literal created in code."
+					},
+					"Translation":
+					{
+						"Text": "Dies ist das dritte im Code erstellte Textliteral."
+					},
+					"Key": "Cpp_TextLiteral_3"
+				}
+			]
+		},
+		{
+			"Namespace": "ST_Shapes",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "circle"
+					},
+					"Translation":
+					{
+						"Text": "Kreis"
+					},
+					"Key": "st_cpp_shapes_circle"
+				},
+				{
+					"Source":
+					{
+						"Text": "rectangle"
+					},
+					"Translation":
+					{
+						"Text": "Rechteck"
+					},
+					"Key": "st_cpp_shapes_rectangle"
+				}
+			]
+		}
+	]
+}
+</code></pre>
+</details>
+</p>
 
 2. Now you should prepare text translations for each Culture your project use. You can do it either insinde Unreal or in external software.
 
