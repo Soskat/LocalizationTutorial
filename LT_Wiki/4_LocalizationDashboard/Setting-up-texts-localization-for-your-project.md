@@ -29,6 +29,6 @@ Below you can find a brief and condensed list of steps for setting up localizati
 9. Done!
 
 ---
-Prev: [Localization Dashboard overview](4_LocalizationDashboard/Localization-Dashboard-Overview.md)
+Prev: [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.md)
 
-Next: [Localizing non-text assets in Unreal](5_LocalizingNonTextAssets/Localizing-non-text-assets-in-Unreal.md)
+Next: [Localizing non-text assets in Unreal](../5_LocalizingNonTextAssets/Localizing-non-text-assets-in-Unreal.md)

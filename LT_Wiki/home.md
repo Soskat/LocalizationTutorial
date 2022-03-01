@@ -25,7 +25,7 @@ Before you go further here are some valuable resources to chek up:
    - A quick guide for setting up localization in your project.
 - [Localizing non-text assets in Unreal](5_LocalizingNonTextAssets/Localizing-non-text-assets-in-Unreal.md)
    - Unreal pipeline for localizing binary assets.
-- [Localizing Dialogues](../6_LocalizingDialogues/Localizing-Dialogues-in-Unreal.md)
+- [Localizing Dialogues](6_LocalizingDialogues/Localizing-Dialogues-in-Unreal.md)
    - Unreal pipeline for localizing dialogues audio files and subtitles.
-- [Debugging localization errors in Unreal](6_DebuggingLocalizationErrors/Debugging-localization-errors-in-Unreal.md)
+- [Debugging localization errors in Unreal](7_DebuggingLocalizationErrors/Debugging-localization-errors-in-Unreal)
    - A bunch of advices for debugging localization related bugs.

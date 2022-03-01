@@ -133,6 +133,6 @@ this->DynamicText->SetText(LOCTABLE("ST_Animals", "st_cpp_animals_cat"));
 In INI files you can only use `LOCTABLE` macro.
 
 ---
-Prev: [Basics of text localization in Unreal](2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)
+Prev: [Basics of text localization in Unreal](../2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)
 
-Next: [Localization Dashboard overview](4_LocalizationDashboard/Localization-Dashboard-Overview.md)
+Next: [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.md)

@@ -14,7 +14,7 @@ We've got our source texts gathered, translated and loaded in the Localization D
 
 During early stages of development of any project, placeholders are often used. It's easy to forget about putting the final asset in some places. Just make sure you at some point initializes a FText property with localizable text (either from teh editor level or straight in code).
 
-See section [Setting up localizable texts in Unreal](3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md).
+See section [Setting up localizable texts in Unreal](../3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md).
 
 ---
 ### Solution #2 - make sure the translation in question is used in project data.
@@ -22,7 +22,7 @@ In order for translations to be used in a project, they must be included in comp
 
 TL;DR: **You can't forget any of the steps in `Gather Texts > Add Texts Translations > Compile Texts with Translations`!**
 
-For more information see topics [Localization Dashboard overview](4_LocalizationDashboard/Localization-Dashboard-Overview.md) or [Setting up texts localization for your project](4_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md).
+For more information see topics [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.md) or [Setting up texts localization for your project](../4_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md).
 
 ---
 ### Solution #3 - make sure that Source of given text is the same in both `*.manifest` and `*.archive` files.
@@ -91,7 +91,7 @@ Localization data isn't packed into build by default; it needs to be added manua
 
 You need to verify, if all cultures of your choice are set to be staged in *Project Settings/Packaging/Localizations to Package* options or in the `DefaultGame.ini` file.
 
-For more information see section `Packaging localization data` of [Localization Dashboard overview](4_LocalizationDashboard/Localization-Dashboard-Overview.md).
+For more information see section `Packaging localization data` of [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.mdd).
 
 ---
 ## Problem: rich text formatting tags that are broken only for certain Cultures

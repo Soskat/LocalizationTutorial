@@ -21,4 +21,4 @@ You may wonder, whether you should use Unreal's localization system or go with s
 - if your localization company doesn't want to work with .PO files, then you need to prepare your own solution for loading text translations to your game
 
 ---
-Next: [Basics of text localization in Unreal](2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)
+Next: [Basics of text localization in Unreal](../2_TextLocalizationBasics/Basics-of-text-localization-in-Unreal.md)

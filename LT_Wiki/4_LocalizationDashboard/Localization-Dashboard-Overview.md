@@ -244,6 +244,6 @@ The list of packaged localizations can be also edited directly in `DefaultGame.i
 ```
 
 ---
-Prev: [Setting up localizable texts in Unreal](3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md)
+Prev: [Setting up localizable texts in Unreal](../3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md)
 
-Next: [Setting up texts localization for your project](4_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md)
+Next: [Setting up texts localization for your project](../4_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md)

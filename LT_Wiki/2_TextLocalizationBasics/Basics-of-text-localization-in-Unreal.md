@@ -30,6 +30,6 @@ I won't be going deeper in details here, but here are the links that covers this
 - [Unicode standard for Language Plural Rules](https://www.unicode.org/cldr/cldr-aux/charts/29/supplemental/language_plural_rules.html)
 
 ---
-Prev: [Introduction to the localization topic](1_Introduction/Introduction-to-the-localization.md)
+Prev: [Introduction to the localization topic](../1_Introduction/Introduction-to-the-localization.md)
 
-Next: [Setting up localizable texts in Unreal](3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md)
+Next: [Setting up localizable texts in Unreal](../3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md)
