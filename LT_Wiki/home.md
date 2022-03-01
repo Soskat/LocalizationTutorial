@@ -27,5 +27,5 @@ Before you go further here are some valuable resources to chek up:
    - Unreal pipeline for localizing binary assets.
 - [Localizing Dialogues](6_LocalizingDialogues/Localizing-Dialogues-in-Unreal.md)
    - Unreal pipeline for localizing dialogues audio files and subtitles.
-- [Debugging localization errors in Unreal](7_DebuggingLocalizationErrors/Debugging-localization-errors-in-Unreal)
+- [Debugging localization errors in Unreal](../LT_Wiki/7_DebuggingLocalizationErrors/Debugging-localization-errors-in-Unreal.md)
    - A bunch of advices for debugging localization related bugs.

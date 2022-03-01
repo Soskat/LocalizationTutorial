@@ -91,7 +91,7 @@ Localization data isn't packed into build by default; it needs to be added manua
 
 You need to verify, if all cultures of your choice are set to be staged in *Project Settings/Packaging/Localizations to Package* options or in the `DefaultGame.ini` file.
 
-For more information see section `Packaging localization data` of [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.mdd).
+For more information see section `Packaging localization data` of [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.md).
 
 ---
 ## Problem: rich text formatting tags that are broken only for certain Cultures
