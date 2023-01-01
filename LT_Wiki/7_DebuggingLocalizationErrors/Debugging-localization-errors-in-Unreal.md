@@ -14,7 +14,7 @@ We've got our source texts gathered, translated and loaded in the Localization D
 
 During early stages of development of any project, placeholders are often used. It's easy to forget about putting the final asset in some places. Just make sure you at some point initializes a FText property with localizable text (either from teh editor level or straight in code).
 
-See section [Setting up localizable texts in Unreal](../3_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md).
+See section [Setting up localizable texts in Unreal](../4_SettingUpLocalizableTexts/Setting-up-localizable-texts-in-Unreal.md).
 
 ---
 ### Solution #2 - make sure the translation in question is used in project data.
@@ -22,7 +22,7 @@ In order for translations to be used in a project, they must be included in comp
 
 TL;DR: **You can't forget any of the steps in `Gather Texts > Add Texts Translations > Compile Texts with Translations`!**
 
-For more information see topics [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.md) or [Setting up texts localization for your project](../4_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md).
+For more information see topics [Localization Dashboard overview](../2_LocalizationDashboard/Localization-Dashboard-Overview.md) or [Setting up texts localization for your project](../2_LocalizationDashboard/Setting-up-texts-localization-for-your-project.md).
 
 ---
 ### Solution #3 - make sure that Source of given text is the same in both `*.manifest` and `*.archive` files.
@@ -31,51 +31,51 @@ Unreal Localization system is very sensitive when it comes to recognizing whethe
 
 Let's look at the following example.
 
-Following fragment of SomeDLC.manifest file contains information about text that uses ID `st_cpp_shapes_circle`:
+Following fragment of TextLocalization.manifest file contains information about text that uses ID `st_cpp_animals_cat`:
 ```
 (...)
-"Namespace": "ST_Shapes",
-Children": [
-    {
-    	"Source":
-    	{
-    		"Text": "circle"
-    	},
-    	"Keys": [
-    		{
-    			"Key": "st_cpp_shapes_circle",
-    			"Path": "Localization/StringTablesCSV/ST_Shapes.csv",
-    			"MetaData":
-    			{
-    				"Info":
-    				{
-    					"Comments": "This is a circle."
-    				}
-    			}
-    		}
-    	]
-    },
+"Namespace": "ST_Animals",
+"Children": [
+{
+	"Source":
+	{
+		"Text": "cat"
+	},
+	"Keys": [
+		{
+			"Key": "st_cpp_animals_cat",
+			"Path": "Localization/StringTablesCSV/ST_Animals.csv",
+			"MetaData":
+			{
+				"Info":
+				{
+					"Comments": "This is a cat."
+				}
+			}
+		}
+	]
+},
 (...)
 ```
-Now, take a look on the German translation for this text, that can be found inside `./de/SomeDLC.archive` file:
+Now, take a look on the German translation for this text, that can be found inside `./de/TextLocalization.archive` file:
 ```
 (...)
-"Namespace": "ST_Shapes",
+"Namespace": "ST_Animals",
 "Children": [
 	{
 		"Source":
 		{
-			"Text": "circle."
+			"Text": "cat."
 		},
 		"Translation":
 		{
-			"Text": "Kreis"
+			"Text": "Katze"
 		},
-		"Key": "st_cpp_shapes_circle"
+		"Key": "st_cpp_animals_cat"
 	},
 (...)
 ```
-At this point, the German translation for `st_cpp_shapes_circle` is broken, because Source text `circle.` from the `.archive` file isn't equal to Source text `circle` from the `.manifest` file.
+At this point, the German translation for `st_cpp_animals_cat` is broken, because Source text `cat.` from the `.archive` file isn't equal to Source text `cat` from the `.manifest` file.
 
 After changing Source text in `.archive` file to `circle` (without a dot at the end) and recompiling German localization data everything should work correctly.
 
@@ -91,7 +91,7 @@ Localization data isn't packed into build by default; it needs to be added manua
 
 You need to verify, if all cultures of your choice are set to be staged in *Project Settings/Packaging/Localizations to Package* options or in the `DefaultGame.ini` file.
 
-For more information see section `Packaging localization data` of [Localization Dashboard overview](../4_LocalizationDashboard/Localization-Dashboard-Overview.md).
+For more information see section `Packaging localization data` of [Localization Dashboard overview](../2_LocalizationDashboard/Localization-Dashboard-Overview.md).
 
 ---
 ## Problem: rich text formatting tags that are broken only for certain Cultures

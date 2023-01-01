@@ -9,6 +9,9 @@ public class LocalizationTutorialEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "LocalizationTutorial" } );
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+
+		ExtraModuleNames.Add("TextLocalization");
+		ExtraModuleNames.Add("Shared");
 	}
 }
